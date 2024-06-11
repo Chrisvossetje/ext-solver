@@ -1,0 +1,13 @@
+- FIELD
+2
+
+- BASIS
+1: (0,0)
+xi: (1,0)
+
+- GENERATOR
+1
+
+- COACTION
+1: 1|1 
+xi: 1|xi + xi|1

@@ -1,0 +1,11 @@
+- FIELD
+2
+
+- GENERATOR
+xi1: (1,0)
+
+- RELATION
+xi1^2
+
+- COACTION
+xi1: 1|xi1 + xi1|1
