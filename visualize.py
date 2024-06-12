@@ -1,5 +1,6 @@
 from resolution import Resolution
 import matplotlib.pyplot as plt
+import globals
 
 def visualize_dots(resolution: Resolution):
     xs = []
@@ -29,4 +30,8 @@ def visualize_structure_lines(resolution: Resolution):
 
 
 def show():
+    plt.xlabel("t-s")
+    plt.ylabel("s")
+    plt.xticks(range(0, globals.GRADE_LIMIT[0]+1, 5))
+    plt.yticks(range(0, globals.FILTRATION_MAX+1, 2))
     plt.show()
